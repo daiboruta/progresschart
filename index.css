@@ -72,7 +72,16 @@ h1 {
     height: calc(100% - 120px);
     display: flex;
     flex-direction: column-reverse;
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+.days {
+    position: relative;
+    height: calc(100% - 120px);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    padding-right: 15px;
 }
 
 .label {
@@ -82,6 +91,12 @@ h1 {
 
 .label.completed {
     color: #ef5353;
+}
+
+.day {
+    position: absolute;
+    font-size: 20px;
+    white-space: nowrap;
 }
 
 .progress-inner-label {

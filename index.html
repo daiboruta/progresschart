@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="index.css">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="index.js"></script>
 
 <head>
     <title>Pastelitos</title>
@@ -11,28 +13,29 @@
     <div class="container">
         <div class="days">
             <div class="day" style="bottom: calc(5.75% - 15px);">sábado - 11,5</div>
-           <div class="day" style="bottom: calc(11% - 15px);">domingo - 22</div>
-           <div class="day" style="bottom: calc(28.5% - 15px);">lunes - 57</div>
-           <div class="day" style="bottom: calc(46.25% - 15px);">martes - 92,5</div>
-           <div class="day" style="bottom: calc(55% - 15px);">miércoles - 110</div>
-           <div class="day" style="bottom: calc(70.75% - 15px);">jueves - 141,5</div>
-           <div class="day" style="bottom: calc(82.25% - 15px);">viernes - 164,5</div>
-       </div>
+            <div class="day" style="bottom: calc(11% - 15px);">domingo - 22</div>
+            <div class="day" style="bottom: calc(28.5% - 15px);">lunes - 57</div>
+            <div class="day" style="bottom: calc(46.25% - 15px);">martes - 92,5</div>
+            <div class="day" style="bottom: calc(55% - 15px);">miércoles - 110</div>
+            <div class="day" style="bottom: calc(70.75% - 15px);">jueves - 141,5</div>
+            <div class="day" style="bottom: calc(82.25% - 15px);">viernes - 164,5</div>
+            <div class="day" style="bottom: calc(98.5% - 15px);">sábado - 197</div>
+        </div>
 
         <div class="progress-bar-container">
             <div class="start-label">200</div>
             <div class="progress-bar">
                 <div class="progress"></div>
-                <div class="progress-inner-label">197</div>
+                <!-- <div class="progress-inner-label">197</div> -->
             </div>
             <div class="end-label">0</div>
         </div>
-        
+
         <div class="labels">
-             <div class="label completed" style="bottom: calc(26% - 30px);">52 - Cubrimos gastos</div>
+            <div class="label completed" style="bottom: calc(26% - 30px);">52 - Cubrimos gastos</div>
             <div class="label completed" style="bottom: calc(55% - 30px);">110 - Hacemos platea</div>
             <div class="label completed" style="bottom: calc(65% - 30px);">130 - Arrancamos a construir</div>
-            <div class="label" style="bottom: calc(99% - 30px);">200 - Ponemos techo</div>
+            <div class="label completed" style="bottom: calc(99% - 30px);">200 - Ponemos techo</div>
         </div>
     </div>
 </body>

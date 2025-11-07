@@ -2,7 +2,7 @@
 
 
 :root {
-    --percentage: 10%;
+    --percentage: 100%;
 }
 
 body {
@@ -109,9 +109,4 @@ h1 {
 .start-label,
 .end-label {
     margin-bottom: 10px;
-}
-
-.info {
-    font-size: small;
-    padding: 30px;
 }

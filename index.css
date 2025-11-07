@@ -23,14 +23,14 @@ h1 {
 }
 
 .container {
-    height: calc(100vh - 300px);
+    height: calc(100vh - 400px);
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
 .progress-bar-container {
-    height: calc(100vh - 300px);
+    height: calc(100vh - 400px);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -112,6 +112,6 @@ h1 {
 }
 
 .info {
-    font-size: small;
+    font-size: 20px;
     padding: 30px;
 }
